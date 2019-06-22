@@ -82,9 +82,10 @@ header img {
 
 .grid-item {
   
-  padding: 20px;
+  padding: 60px;
   font-size: 30px;
   text-align: center;
+  background-color: #e49646;
 }
 
 h3 {
@@ -195,7 +196,11 @@ nav {
   justify-content: center;
   align-items: center;
   height: 30%;
-  margin-top: 150px;
+  margin-top: 130px;
+  width: 100%;
+  background-color: #e49646;
+  border-top: 5px solid #2E3447;
+  border-bottom: 5px solid #2E3447;
   /* grid-template-columns: auto auto auto; */
 
   padding: 10px;
