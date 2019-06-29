@@ -2,7 +2,7 @@
 :root {
 --main-dk-color: #2E3447;
 --main-accent-color: #e49646;
---main-light-color: ivory;
+--main-light-color: #f9f9f9;
 }
 
 * {
@@ -68,8 +68,6 @@ a {
   flex-direction: column;
 }
 
-
-
 .navigation li:first-child {
   display: block;
 }
@@ -87,7 +85,7 @@ a {
 }
 
 .navigation a:hover:not(.active) {
-  background-color: var(--main-accent-color);
+  background-color: var(--main-dk-color);
   color: var(--main-light-color);
 }
 
